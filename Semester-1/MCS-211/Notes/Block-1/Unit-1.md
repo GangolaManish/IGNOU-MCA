@@ -73,7 +73,7 @@ begin [start of the algorithm]
 
 ###### Iteration 3:
 1. Divide a = 147 by b = 21 and store the remainder in r.  
-  r = 147 % 21 (here, % represents the remainder operator)
+  r = 147 % 21 (here, % represents the remainder operator)  
   r = 0
 2. If r = 0, the algorithm terminates and b is the GCD. Otherwise, go to step 3.  
   Here, r is zero, so the algorithm terminates and b is the answer, i.e. 21.

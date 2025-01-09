@@ -52,44 +52,29 @@ begin [start of the algorithm]
 
 ##### GCD of a = 1071 and b = 462 using Euclid’s Algorithm
 ###### Iteration 1:
-1. Divide a = 1071 by b = 462 and store the remainder in r.
-```plaintext
-    r = 1071 % 462 (here, % represents the remainder operator)
-    r = 147
-```
-2. If r = 0, the algorithm terminates and b is the GCD. Otherwise, go to step 3.
-```plaintext
-  Here, r is not zero, so we will go to step 3.
-```
-3. The integer a will get the current value of integer q, and the new value of integer b will be the current value of r.
-```plaintext
+1. Divide a = 1071 by b = 462 and store the remainder in r.  
+    r = 1071 % 462 (here, % represents the remainder operator)  
+    r = 147  
+2. If r = 0, the algorithm terminates and b is the GCD. Otherwise, go to step 3.  
+    Here, r is not zero, so we will go to step 3.
+3. The integer a will get the current value of integer q, and the new value of integer b will be the current value of r.  
   Here, a = 462 and b = 147
-```
 4. Go back to step 1.
 
 ###### Iteration 2:
-1. Divide a = 462 by b = 147 and store the remainder in r.
-```plaintext
-    r = 462 % 147 (here, % represents the remainder operator)
+1. Divide a = 462 by b = 147 and store the remainder in r.  
+    r = 462 % 147 (here, % represents the remainder operator)  
     r = 21 
-```
-2. If r = 0, the algorithm terminates and b is the GCD. Otherwise, go to step 3.
-```plaintext
+2. If r = 0, the algorithm terminates and b is the GCD. Otherwise, go to step 3.  
   Here, r is not zero, so we will go to step 3.
-```
-3. The integer a will get the current value of integer q, and the new value of integer b will be the current value of r.
-```plaintext
+3. The integer a will get the current value of integer q, and the new value of integer b will be the current value of r.  
   Here, a = 147 and b = 21
-```
 4. Go back to step 1.
 
 ###### Iteration 3:
-1. Divide a = 147 by b = 21 and store the remainder in r.
-```plaintext
+1. Divide a = 147 by b = 21 and store the remainder in r.  
   r = 147 % 21 (here, % represents the remainder operator)
   r = 0
-```
-2. If r = 0, the algorithm terminates and b is the GCD. Otherwise, go to step 3.
-```plaintext
+2. If r = 0, the algorithm terminates and b is the GCD. Otherwise, go to step 3.  
   Here, r is zero, so the algorithm terminates and b is the answer, i.e. 21.
-```
+
